@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.c6cf3018.css","mappings":"AAAA,KAEE,qBAAuB,CACvB,UAAY,CAFZ,aAGF","sources":["index.css"],"sourcesContent":["body {\n  line-height: 1;\n  background-color: black;\n  color: white;\n}"],"names":[],"sourceRoot":""}
