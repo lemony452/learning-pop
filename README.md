@@ -1,4 +1,4 @@
-# learning-pop
+# 🍿 learning-pop
 
 ## Index
 
@@ -63,9 +63,11 @@ BE
   - JS 번들 사이즈가 크면 그만큼 JS로 렌더링을 하는 속도가 느릴 수 밖에 없고, 특히 CSR인 React의 특징은 초기 렌더링이 느려 사용자 경험에 큰 영향을 미칠 수 있었습니다. 그래서 번들 사이즈를 줄일 수 있는 Suspense와 React.lazy를 사용해 로딩 속도를 최적화하고 유저 경험을 개선하고 싶었습니다. 번들 사이즈가 약간 감소하긴 했지만 초기 로딩에 걸린 시간의 차이가 유의미하진 않았습니다.
 
   `Lazy 사용 전 번들사이즈`
+  <br>
   <img width="630" alt="no lazy" src="https://github.com/lemony452/learning-pop/assets/109330624/3d21b948-ed5b-407c-b324-06d9a2bf0e92">
 
   `Lazy 사용 후 번들사이즈`
+  <br>
   <img width="630" alt="lazy" src="https://github.com/lemony452/learning-pop/assets/109330624/2b366220-92cd-4adc-8950-59a1ab08da1e">
 
   - 그래서 첫 홈 페이지는 실시간을 빠르게 변경할 데이터가 없기 때문에 부분적 SSR을 적용하면 초기 로딩 속도를 더 줄일 수 있겠다고 판단하였습니다. 해당 프로젝트에는 SSR을 사용하진 않았지만 추후 다른 프로젝트를 진행할 때 SSR을 사용할 예정입니다.
@@ -78,16 +80,21 @@ BE
 ## 4. 프로젝트 화면
 
 `홈`
+<br>
 <img width="600" alt="home" src="https://github.com/lemony452/learning-pop/assets/109330624/d22d8bca-b368-49a1-9256-b6d8ba203f24">
 
 `팝송 플레이리스트`
+<br>
 <img width="600" alt="popsongs" src="https://github.com/lemony452/learning-pop/assets/109330624/47d31cf7-cf94-42a7-8560-402fc55c4c7e">
 
 `팝송 상세 페이지`
+<br>
 <img width="600" alt="detail" src="https://github.com/lemony452/learning-pop/assets/109330624/4b0bc098-a4fd-4ac2-acaa-8ebb7e5e62ff">
 
 `팝송 등록 페이지`
+<br>
 <img width="600" alt="new" src="https://github.com/lemony452/learning-pop/assets/109330624/343ede94-46d1-4286-96b8-790cb79151a6">
 
 `팝송 수정 페이지`
+<br>
 <img width="600" alt="edit" src="https://github.com/lemony452/learning-pop/assets/109330624/3dce94be-ed1e-4bcf-bb3a-5068a77a5dcd">
